@@ -1,1 +1,18 @@
-
+body{
+    margin: 0;
+    margin-top: 10px;
+}
+.Major{
+    margin: 0;
+}
+.Name{
+    margin: 0;
+}
+h3{
+    width: max-content;
+}
+.ExpDate{
+    margin: 0;
+    margin-left: 5px;
+    width: max-content;
+}
