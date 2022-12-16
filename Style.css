@@ -16,3 +16,25 @@ h3{
     margin-left: 5px;
     width: max-content;
 }
+.ExpItems{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0%;
+    gap: 1rem;
+}
+.ExpItems>*{
+    text-align: center;
+    width: max-content;
+    max-width: 260px;
+    gap: 1rem;
+    flex-grow: 1;
+}
+.ExpSection{
+    
+    
+    margin: 0;
+    padding: 0;
+
+
+}
