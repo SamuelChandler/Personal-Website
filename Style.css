@@ -25,6 +25,19 @@ h4{
 p{
     color: var(--Paragraph);
 }
+input[type=submit]{
+    background-color: var(--Button);
+    color: var(--Buttontxt);
+    font-size: large;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
 .Major{
     margin: 0;
 }
@@ -54,10 +67,6 @@ p{
 
 }
 .ExpSection{
-    
-    
     margin: 0;
     padding: 0;
-
-
 }
