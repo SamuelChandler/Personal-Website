@@ -1,5 +1,29 @@
+:root{
+    --BG: #004643;
+    --HeadLine: #fffffe;
+    --Paragraph: #abd1c6;
+    --Button: #f9bc60;
+    --Buttontxt: #001e1d;
+}
 body{
     margin-top: 10px;
+    background-color: var(--BG);
+}
+h1{
+    color: var(--HeadLine);
+}
+h2{
+    color: var(--HeadLine);
+}
+h3{
+    width: max-content;
+    color: var(--HeadLine);
+}
+h4{
+    color: var(--HeadLine);
+}
+p{
+    color: var(--Paragraph);
 }
 .Major{
     margin: 0;
@@ -7,9 +31,7 @@ body{
 .Name{
     margin: 0;
 }
-h3{
-    width: max-content;
-}
+
 .ExpDate{
     margin: 0;
     margin-left: 5px;
