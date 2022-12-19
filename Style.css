@@ -42,16 +42,23 @@ header{
 }
 
 
-
+.ExpTitle{
+    margin: 0;
+}
+.ExpItems>.Item>*{
+    margin: 0;
+}
 .ExpDate{
     margin: 0;
-    margin-left: 5px;
+    margin-left: 2%;
+    margin-bottom: 1%;
     width: max-content;
 }
 .ExpItems{
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 5%;
     padding: 0%;
     gap: 1rem;
 }
