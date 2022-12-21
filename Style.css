@@ -80,6 +80,7 @@ input[type=submit]{
     color: var(--Buttontxt);
     margin: 0%;
     font-size: large;
+    text-align: left;
     width: 100%;
     height: 100%;
 }
@@ -92,8 +93,5 @@ a.button {
     text-decoration: none;
     color: initial;
 }
-.ProjectGrid{
-    display: grid;
-    grid-template-columns:[l1] 33% [l2] auto [l3] 33% [l4];
-    grid-template-rows: [r1] auto [r2] auto [r3];
-}
+
+   
