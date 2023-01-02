@@ -30,6 +30,11 @@ header{
     margin:0;
 }
 
+header img{
+    
+    width: 100%;
+}
+
 .Major{
     margin: 0;
     padding-left: 4%;
