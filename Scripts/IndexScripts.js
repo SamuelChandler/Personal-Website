@@ -5,3 +5,4 @@ function goToInternal(newURL) {
 function goToExternal(newURL){
     window.location= newURL;
 }
+
