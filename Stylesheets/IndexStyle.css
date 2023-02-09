@@ -31,8 +31,9 @@ header{
 }
 
 header img{
-    
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .Major{
@@ -46,7 +47,9 @@ header img{
     padding-left: 1%;
 }
 
-
+.ExpSection{
+    padding-left: 5px;
+}
 .ExpTitle{
     margin: 0;
 }
@@ -80,6 +83,23 @@ header img{
     margin: 0;
     padding: 0;
 }
+.ExpItems .Item{
+    background-color: var(--Buttontxt);
+    border-radius: 2px;
+    box-shadow: 5px 5px 2px;
+}
+
+.ExpItems .Item h4{
+    padding: 5px;
+    padding-top: 3%;
+}
+
+.ExpItems .Item .Text{
+    text-align: center;
+}
+
+
+
 .PGItem img {
     width: 100%;
     height: auto;
@@ -91,5 +111,9 @@ header img{
     opacity: 0.8;
 }
   
+
+
+
+
 
    
